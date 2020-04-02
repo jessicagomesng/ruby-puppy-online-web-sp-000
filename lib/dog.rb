@@ -5,12 +5,14 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self 
+    @@all << self
   end
 
   def self.all
     @@all
   end
+
+  def print_all
 
 
   def self.clear_all
