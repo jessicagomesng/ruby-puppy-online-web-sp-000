@@ -17,7 +17,9 @@ class Dog
       puts @name
     end
 
+  def self.save
+
   def self.clear_all
-  end 
+  end
 
 end
